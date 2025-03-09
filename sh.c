@@ -133,6 +133,7 @@ runcmd(struct cmd *cmd)
 int
 getcmd(char *buf, int nbuf)
 {
+  printf(1, "Hassan-Dani ");
   printf(2, "$ ");
   memset(buf, 0, nbuf);
   gets(buf, nbuf);
